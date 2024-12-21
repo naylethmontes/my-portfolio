@@ -1,0 +1,156 @@
+
+
+{
+  "nav": {
+    "home": "Start",
+    "about": "About Me",
+    "project": "Projects",
+    "tests": "Testimonials",
+    "contc": "Contact"
+  },
+
+
+  "hero": {
+    "title": "I am ",
+    "subTitle": "Full Stack Web Developer",
+    "description": "I am a developer passionate about technology, design, and creativity. My main goal is to design and build efficient, secure, and scalable web solutions. ",
+    "cvButton": "Download CV",
+    "contac": "Contact Me",
+    "cvLink": "https://drive.google.com/file/d/1pCyXNTCPTiuPiDZS2EBfyteb8ZYdAqgx/view?usp=drive_link"
+  },
+
+     
+    "titleAnimation": {
+      "title": "Web Dev",
+      "fullstack": "Fullstack",
+      "webDesign": "Web Design"
+    },
+  
+  
+
+  "aboutMe": {
+    "title": "About Me",
+    "subTitle": "Hello, I am Nayleth",
+    "description": "I am passionate about innovative design and technologies. My primary goal is to create and develop highly efficient web solutions. I stand out for my calm and patient approach, which allows me to tackle projects with attention to detail and work effectively in a team.",
+    "par": "I can bring strategic solutions...",
+    "skill": "Skills and Experience"
+  },
+
+
+  "card": {
+      "boost": {
+      "title": "Boost",
+      "desc": "As a developer, I offer customized technological solutions for companies looking to enhance their digital presence with modern technologies to ensure effective and tailored results."
+      },
+
+      "creative": {
+        "title": "Creative",
+        "desc": "As a developer, I provide personalized technological solutions for companies seeking to strengthen their digital presence using modern technologies to ensure effective and customized results."
+      },
+      
+      "quality": {
+        "title": "Quality",
+        "desc": "My commitment is to deliver comprehensive solutions that integrate innovation, functionality, and quality design. I work collaboratively with companies to understand their goals and challenges."
+      }
+    
+    },
+
+  "cards": {
+    "title": "Preview",
+    "subTitle": "View Code"
+  },
+
+  "testimonls": {
+      "title": "Testimonials"
+    },
+
+  "testimonials": {
+    "texts": {
+    "text": "I felt super comfortable working with her; she is very responsible."
+    },
+
+    "texts2": {
+      "text": "Very professional"
+      
+    },
+    
+    "texts3": {
+      "text": "It was a pleasure working with this colleague; her way of working is very organized."
+      
+    },
+  
+    "texts4": {
+      "text": "Fascinated with her work; she knows how to integrate perfectly."
+      
+    },
+  
+    "texts5": {
+      "text": "We did great work together."
+      
+    }
+  
+  },
+
+
+  "contactMe": {
+    "title": "Get in Touch",
+    "subTitle": "I am always open to new opportunities and collaborations.",
+    "contac": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+
+  "placeholder": {
+    "name": "fullName",
+    "email": "hello@hotmail.com",
+    "message": "write your message"
+  },
+
+
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "menuHome": "Home",
+    "menuAbout": "About Me",
+    "menuProjects": "Projects",
+    "menuTestimonials": "Testimonials",
+    "menuContact": "Contact"
+  },
+ 
+    "project": {
+      "title": "My Projects"
+    },
+  
+    "projects": {
+      "hotel": {
+        "title": "Hotel Application",
+        "desc": "This app is designed for a great user experience. It features protected routes, a booking registry, reviews, city filters, and is built with React and libraries like Tailwind, React Hook Form, among others."
+      },
+      "rickAndMorty": {
+        "title": "Rick and Morty",
+        "desc": "Application developed with React to consume the Rick and Morty API, displaying detailed information about characters, episodes, and locations. It implements asynchronous HTTP requests to fetch real-time data, ensuring a smooth and dynamic experience."
+      },
+      "crud": {
+        "title": "User Crud",
+        "desc": "User CRUD developed with React, simple and practical. It includes a modal to dynamically add new users, a button to edit, and another to delete."
+      },
+      "weather": {
+        "title": "Weather",
+        "desc": "Developed with React, this app shows real-time updated weather conditions. It allows users to check the weather by location."
+      }
+    },
+
+    "footer": {
+      "title": "All rights reserved."
+    }
+
+
+
+}
+  
+

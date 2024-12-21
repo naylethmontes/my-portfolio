@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de mi",
+    "project": "Proyectos",
+    "tests": "Testimonios",
+    "contc": "Contacto"
+  },
+
+
+  "hero": {
+    "title": "soy ",
+    "subTitle": "Desarrollador Web Full Stack",
+    "description": "Soy una desarrolladora apasionada por la tecnología, el diseño y la creatividad. Mi principal objetivo es diseñar y construir soluciones web eficientes, seguras y escalables.",
+    "cvButton": "Descargar CV",
+    "contac": "Contactame",
+    "cvLink": "https://drive.google.com/file/d/1A3poDs649vLJFN5LETWlYL2KSEbrI-Em/view?usp=drive_link"
+  },
+
+    
+    "titleAnimation": {
+      "title": "Desarrollo web",
+      "fullstack": "Fullstack",
+      "webDesign": "Diseño web"
+    },
+  
+
+
+
+  "aboutMe": {
+    "title": "Acerca de mi",
+    "subTitle": "Hola, Soy Nayleth",
+    "par": "Puedo aportar soluciones estratégicas...",
+    "description": "Me estusiasma el diseño innovador, las tecnologias, mi meta primordial es crear y desarrollar soluciones web que sean altamente eficientes. Me destaco por mi enfoque tranquilo y paciente, lo que me permite abordar proyectos con atención al detalle y trabajar de manera efectiva en equipo.  ",
+    "skill": "Habilidades y Experiencia"
+  },
+
+
+  "card": {
+      "boost": {
+      "title": "Impulsar",
+      "desc": "Como desarrolladora, ofrezco soluciones tecnológicas personalizadas para empresas que buscan potenciar su presencia digital con tecnologías modernas para garantizar resultados efectivos y adaptados."
+      },
+
+      "creative": {
+        "title": "Creativo",
+        "desc": "Combino mis habilidades técnicas con un enfoque creativo para diseñar interfaces atractivas y efectivas. Entiendo que el diseño no solo debe ser visualmente impactante, sino también estratégico."
+      },
+      
+      "quality": {
+        "title": "Calidad",
+        "desc": "Mi compromiso es ofrecer soluciones completas que integren innovación, funcionalidad y diseño de calidad. Trabajo de manera colaborativa con las empresas para entender sus objetivos y desafíos."
+      }
+    
+    },
+
+
+  "cards": {
+    "title": "Vista Previa",
+    "subTitle": "Ver Codigo"
+  },
+
+  "testimonls": {
+      "title": "Testimonios"
+    },
+
+
+  "testimonials": {
+    "texts": {
+    "text": "Me senti super comoda trabajando con ella, es muy responsable."
+    },
+
+    "texts2": {
+      "text": "Muy profesional"
+      
+    },
+    
+    "texts3": {
+      "text": "Fue un gusto trabajar con esta compañera, muy ordenada su manera de trabajar."
+      
+    },
+  
+    "texts4": {
+      "text": "Fascinado con su Trabajo, sabe integrarse perfectamente."
+      
+    },
+  
+    "texts5": {
+      "text": "Buenos trabajos hicimos juntos"
+      
+    }
+  
+  },
+
+
+  "contactMe": {
+    "title": "Ponte en contacto",
+    "subTitle": "Siempre estoy abierto a nuevas oportunidades y colaboración.",
+    "contac": "Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+
+  "placeholder": {
+    "name": "Nombre Completo",
+    "email": "hola@hotmail.com",
+    "message": "Escribe tu mensaje"
+  },
+
+
+
+  "navbar": {
+    "home": "Inicio",
+    "about": "Acerca de mi",
+    "projects": "Proyectos",
+    "testtimonials": "Testimonios",
+    "contact": "Contacto",
+    "menuHome": "Inicio",
+    "menuAbout": "Acerca de mi",
+    "menuProjects": "Proyectos",
+    "menuTestimonials": "Testimonios",
+    "menuContact": "Contacto"
+  },
+
+  "project": {
+    "title": "Mis Proyectos"
+  },
+
+
+  "projects": {
+    "hotel": {
+      "title": "Aplicacion de Hoteles",
+      "desc": "Esta App diseñada para una buena experiencia de usuario. Se protegen rutas, se creo un registro de reservas, reseñas, filtros por ciudad, elaborada con React, y librerias como Tailwind, React Hook Form entre otras"
+      },
+    "rickAndMorty": {
+      "title": "Rick and Morty",
+      "desc": "Aplicación desarrollada con React para consumir la API de Rick and Morty, mostrando información detallada sobre personajes, episodios y ubicaciones. Implementa peticiones HTTP asíncronas para obtener datos en tiempo real, garantizando una experiencia fluida y dinámica."
+      },
+    "crud": {
+      "title": "Crud de Usuarios",
+      "desc": "Crud de usuarios desarrollado con React sencillo y practico tenemos un modal para agregar usuarios nuevos de manera dinamica, boton para editar y otro para eliminar."
+      },
+    "weather": {
+      "title": "Clima",
+      "desc": "Desarrollada con React que muestra información actualizada sobre las condiciones meteorológicas en tiempo real. Permite consultar el clima por ubicación."
+      }
+    },
+  
+    "footer": {
+      "title": "Todos los derechos reservados"
+    }
+
+
+}
