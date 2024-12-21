@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
-import Whatsapp from '../assets/whatsapp.png';
+import Whatsapp from '../assets/what.png';
 import Correo from '../assets/correocolor.png';
 import linkedin from '../assets/linkcolor.png';
 import Github from '../assets/github.png';
