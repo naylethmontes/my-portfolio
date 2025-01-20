@@ -29,7 +29,7 @@ const Contact = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
-		setSuccessMessage('¡Enviado con éxito!');
+		setSuccessMessage(t('contactMe.form'));
 
 		setFormData({ name: '', email: '', message: '' });
 
@@ -56,39 +56,47 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="z-50 bg-red-300 relative py-10 px-5 md:px-0 dark:bg-gray-500 text-gray-800 dark:text-gray-200"
+			className="z-50 bg-purple-200 relative py-10 px-5 md:px-0 dark:bg-gray-500 text-gray-800 dark:text-gray-200"
 		>
 			<div className="mb-16 max-w-7xl mx-auto">
 				<div className="flex flex-col md:flex-row justify-between items-center">
 					<div className="md:w-1/2 mb-8 ml-2 md:mb-0">
-						<h2 className="text-3xl font-bold mb-3 text-red-600 dark:text-gray-300">
+						<h2 className="text-3xl font-bold mb-3 text-purple-600 dark:text-gray-300">
 							{t('contactMe.title')}
 						</h2>
 						<p className="mb-4 text-black/85">{t('contactMe.subTitle')}</p>
-						<div className="flex space-x-4">
+						<div className="flex space-x-5">
 							<a
-								href="#"
+								href="https://wa.me/573126538991"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="text-foreground/60 hover:text-foreground/80"
 							>
-								<img src={Whatsapp} alt="" className="h-6 w-6" />
+								<img src={Whatsapp} alt="" className="h-12 w-12" />
 							</a>
 							<a
-								href="#"
+								href="mailto:montesnayleth.99@gmail.com"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="text-foreground/60 hover:text-foreground/80"
 							>
-								<img src={Correo} alt="" className="h-6 w-6" />
+								<img src={Correo} alt="" className="h-12 w-12" />
 							</a>
 							<a
-								href="#"
+								href="https://www.linkedin.com/in/nayleth-montes-85937b332/"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="text-foreground/60 hover:text-foreground/80"
 							>
-								<img src={linkedin} alt="" className="h-6 w-6 " />
+								<img src={linkedin} alt="" className="h-12 w-12" />
 							</a>
 							<a
-								href="#"
+								href="https://github.com/naylethmontes"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="text-foreground/60 hover:text-foreground/80"
 							>
-								<img src={Github} alt="" className="h-6 w-6 " />
+								<img src={Github} alt="" className="h-12 w-12" />
 							</a>
 						</div>
 						<Lottie
@@ -100,7 +108,7 @@ const Contact = () => {
 						ref={refForm}
 						action=""
 						onSubmit={handleSubmit}
-						className="w-full md:w-1/2 bg-red-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10 dark:bg-gray-300 text-gray-800 dark:text-gray-200 dark:shadow-gray-600"
+						className="w-full md:w-1/2 bg-purple-100 rounded-lg border border-purple-300 shadow-lg shadow-purple-300 p-10 dark:bg-gray-300 text-gray-800 dark:text-gray-200 dark:shadow-gray-600"
 					>
 						<h1 className="text-gray-900 text-4xl font-bold mb-7">
 							{t('contactMe.contac')}
@@ -158,11 +166,11 @@ const Contact = () => {
 								className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50  dark:text-gray-700 "
 							/>
 						</div>
-						<button className="btn hover:bg-red-700 dark:bg-red-800 text-gray-800 dark:text-gray-200 dark:hover:bg-gray-600">
+						<button className="btn hover:bg-purple-400 dark:bg-gray-600 text-gray-800 dark:text-gray-200 dark:hover:bg-gray-800">
 							{t('contactMe.send')}
 						</button>
 						{successMessage && (
-							<p className="mt-5 text-center text-red-700 font-medium dark:text-gray-800">
+							<p className="mt-5 text-center text-black font-medium dark:text-gray-800">
 								{successMessage}
 							</p>
 						)}

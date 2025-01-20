@@ -14,15 +14,13 @@
     "description": "Soy una desarrolladora apasionada por la tecnología, el diseño y la creatividad. Mi principal objetivo es diseñar y construir soluciones web eficientes, seguras y escalables.",
     "cvButton": "Descargar CV",
     "contac": "Contactame",
-    "cvLink": "https://drive.google.com/file/d/1A3poDs649vLJFN5LETWlYL2KSEbrI-Em/view?usp=drive_link"
+    "cvLink": "https://drive.google.com/file/d/1A3poDs649vLJFN5LETWlYL2KSEbrI-Em/view?usp=sharing",
+    "animation": ["Desarrollo Web", "Fullstack", "Diseño Web"]
   },
 
     
-    "titleAnimation": {
-      "title": "Desarrollo web",
-      "fullstack": "Fullstack",
-      "webDesign": "Diseño web"
-    },
+  
+    
   
 
 
@@ -100,7 +98,8 @@
     "name": "Nombre",
     "email": "Correo",
     "message": "Mensaje",
-    "send": "Enviar"
+    "send": "Enviar",
+    "form": "¡Enviado con éxito!"
   },
 
   "placeholder": {

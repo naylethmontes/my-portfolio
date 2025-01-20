@@ -33,13 +33,13 @@ html {
 
 @layer components {
 	.btn {
-		@apply block bg-red-500 text-white font-semibold text-center rounded-lg px-4 py-2;
+		@apply block bg-purple-500 text-white font-semibold text-center rounded-lg px-4 py-2;
 	}
 }
 
 body {
 	font-family: 'Space Grotesk', sans-serif;
-	background-color: #ffcdd2;
+	background-color: #f3e5f5;
 }
 
 .shiny-effect {
@@ -47,5 +47,5 @@ body {
 	border-radius: 50%;
 	pointer-events: none;
 	z-index: 1;
-	background: radial-gradient(circle, rgba(198, 40, 40), transparent 70%);
+	background: radial-gradient(circle, rgba(179, 157, 219), transparent 70%);
 }

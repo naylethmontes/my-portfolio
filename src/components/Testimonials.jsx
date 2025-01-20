@@ -45,7 +45,7 @@ const Testimonials = () => {
 	return (
 		<div
 			id="testimonials"
-			className="py-10 bg-red-50 relative dark:bg-gray-800 text-gray-700 dark:text-black"
+			className="py-10 bg-white relative dark:bg-gray-800 text-gray-700 dark:text-black"
 		>
 			<h1 className="uppercase mb-7text-2xl text-center text-2xl lg:text-4xl font-bold text-black">
 				{t('testimonls.title')}
@@ -81,7 +81,7 @@ const Testimonials = () => {
 					{testimonials.map((item) => {
 						return (
 							<SwiperSlide key={item.id} className="min-h-64">
-								<div className="border border-red-400 dark:border-white shadow-md rounded-lg flex flex-col p-4 dark:bg-gray-500 text-gray-700 dark:text-black">
+								<div className="border border-purple-400 dark:border-white shadow-md rounded-lg flex flex-col p-4 dark:bg-gray-500 text-gray-700 dark:text-black">
 									{item.rating === 4 ? (
 										<div className="flex">
 											<Star fill="true" />
@@ -102,17 +102,17 @@ const Testimonials = () => {
 									<p className="py-3">{item.text}</p>
 									<div className="flex justify-between items-center">
 										<div>
-											<h3 className="font-semibold text-orange-800 text-lg">
+											<h3 className="font-semibold text-purple-800 text-lg dark:text-gray-900">
 												{item.name}
 											</h3>
 										</div>
-										<Quote className="text-red-400" />
+										<Quote className="text-gray-500" />
 									</div>
 								</div>
 							</SwiperSlide>
 						);
 					})}
-					<div className="swiper-pagination my-10 gap-1 relative "></div>
+					<div className="swiper-pagination my-10 gap-1 relative"></div>
 				</Swiper>
 			</div>
 		</div>

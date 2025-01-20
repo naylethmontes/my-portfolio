@@ -13,10 +13,10 @@ function ModeToggle() {
 	};
 
 	return (
-		<div className="absolute bottom-5 right-5 md:bottom-10">
+		<div className="">
 			<button
 				onClick={toggleTheme}
-				className="py-5 px-4 rounded-full w-full md:w-auto bg-gray-200 hover:bg-red-600 dark:bg-gray-800 text-gray-800 dark:text-gray-200"
+				className="py-2 px-3 rounded-full w-full md:w-auto bg-gray-200 drop-shadow-md hover:bg-purple-400 dark:bg-gray-800 text-gray-800 dark:text-gray-200"
 			>
 				{theme === 'light' ? '🌙 ' : '🌞 '}
 			</button>
@@ -25,3 +25,5 @@ function ModeToggle() {
 }
 
 export default ModeToggle;
+
+// el className para el botom absolute bottom-5 right-5 md:bottom-10

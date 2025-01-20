@@ -43,10 +43,10 @@ const Projects = () => {
 	return (
 		<section
 			id="projects"
-			className="relative bg-red-300 py-10 px-4 dark:bg-gray-500 text-gray-800 dark:text-gray-200"
+			className="relative bg-purple-200 py-10 px-4 dark:bg-gray-500 text-gray-800 dark:text-gray-200"
 		>
 			<div className="mb-16 max-w-7xl mx-auto dark:bg-gray-800 text-gray-700 dark:text-black">
-				<h2 className="text-3xl font-bold mb-8 text-black border-b border-red-600 w-max pb-4">
+				<h2 className="text-3xl font-bold mb-8 text-black border-b border-purple-600 w-max pb-4">
 					{t('project.title')}
 				</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">

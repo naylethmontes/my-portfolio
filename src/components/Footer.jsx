@@ -6,7 +6,7 @@ const Footer = () => {
 	const { t } = useTranslation();
 
 	return (
-		<footer className="relative bg-red-50 py-4 dark:bg-gray-300 text-gray-700 dark:text-black">
+		<footer className="relative bg-white py-4 dark:bg-gray-300 text-gray-700 dark:text-black">
 			<div className="container mx-auto px-4 text-center">
 				<p>&copy; 2024, {t('footer.title')}</p>
 			</div>

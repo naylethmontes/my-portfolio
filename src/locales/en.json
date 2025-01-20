@@ -16,16 +16,12 @@
     "description": "I am a developer passionate about technology, design, and creativity. My main goal is to design and build efficient, secure, and scalable web solutions. ",
     "cvButton": "Download CV",
     "contac": "Contact Me",
-    "cvLink": "https://drive.google.com/file/d/1pCyXNTCPTiuPiDZS2EBfyteb8ZYdAqgx/view?usp=drive_link"
+    "cvLink": "https://drive.google.com/file/d/1pCyXNTCPTiuPiDZS2EBfyteb8ZYdAqgx/view?usp=sharing",
+    "animation": ["Web Dev", "Fullstack", "Web Design"]
   },
 
      
-    "titleAnimation": {
-      "title": "Web Dev",
-      "fullstack": "Fullstack",
-      "webDesign": "Web Design"
-    },
-  
+    
   
 
   "aboutMe": {
@@ -99,7 +95,9 @@
     "name": "Name",
     "email": "Email",
     "message": "Message",
-    "send": "Send"
+    "send": "Send",
+    "form": "¡Successfully sent!"
+
   },
 
   "placeholder": {

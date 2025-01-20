@@ -8,7 +8,6 @@ import reduxLogo from '../assets/Redux.png';
 import tailwind from '../assets/Tailwind Css.png';
 import '../config/i18n';
 import ShinyEffect from './ShinyEffect';
-import ModeToggle from './ModeToggle';
 
 const Hero = () => {
 	const { t, i18n } = useTranslation();
@@ -19,15 +18,15 @@ const Hero = () => {
 		localStorage.setItem('language', newLang);
 	};
 
-	const whatsappLink = 'https://wa.me/573156538991';
+	//const whatsappLink = 'https://wa.me/573156538991';
 	const emailLink = 'mailto:montesnayleth.99@gmail.com';
 
 	const handleContact = () => {
-		window.open(whatsappLink, '_blank');
+		//window.open(whatsappLink, '_blank');
 		window.open(emailLink, '_blank');
 	};
 	return (
-		<section className="px-7 top-0 mt-18 max-w-[1600px] mx-auto relative  dark:bg-gray-500 text-black dark:text-black">
+		<section className="px-7 top-0 mt-18 max-w-[1650px] mx-auto relative  dark:bg-gray-500 text-black dark:text-black">
 			<div className="py-7">
 				<div className="flex flex-col md:flex-row items-center lg:h-[90vh] justify-between ">
 					<div className="md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10 text-center md:text-left ">
@@ -50,17 +49,17 @@ const Hero = () => {
 									]}
 									speed={50}
 									repeat={Infinity}
-									className="font-bold text-orange-800 text-xl md:text-5xl italic- mb-4"
+									className="font-bold text-purple-800 text-xl md:text-5xl italic- mb-4"
 								/>
 								<motion.p
 									initial={{ opacity: 0 }}
 									whileInView={{ opacity: 1 }}
 									viewport={{ once: true }}
 									transition={{ duration: 1, delay: 0.5 }}
-									className="text-gray-200 md:text-6xl text-4xl tracking-tight mb-4"
+									className="text-gray-400 md:text-6xl text-4xl tracking-tight mb-4"
 								>
 									Hey, {t('hero.title')} <br />
-									<span className="text-orange-600">Nayleth</span>
+									<span className="text-purple-400">Nayleth</span>
 								</motion.p>
 								<motion.p
 									initial={{ opacity: 0 }}
@@ -77,19 +76,19 @@ const Hero = () => {
 						<div className="w-full flex gap-4 items-center justify-center md:justify-start">
 							<button
 								onClick={toggleLanguage}
-								className="btn  py-2 px-3 rounded-md text-sm hover:bg-red-400 dark:bg-gray-800 text-gray-800 dark:text-white dark:hover:bg-gray-600"
+								className="btn  py-2 px-3 rounded-md text-sm hover:bg-purple-400 dark:bg-gray-800 text-gray-800 dark:text-white dark:hover:bg-gray-600"
 							>
 								{i18n.language === 'en' ? 'Español' : 'English'}
 							</button>
 
-							<button className="bg-black text-white px-3 py-2 w-max rounded-md hover:bg-red-500 dark:hover:bg-gray-700">
+							<button className="bg-black text-white px-3 py-2 w-max rounded-md hover:bg-purple-400 dark:hover:bg-gray-700">
 								<a href={t('hero.cvLink')} download target="_blank">
 									{t('hero.cvButton')}
 								</a>
 							</button>
 							<button
 								onClick={handleContact}
-								className="bg-black text-white px-3 py-2 w-max rounded-md hover:bg-red-500 dark:hover:bg-gray-700"
+								className="bg-black text-white px-3 py-2 w-max rounded-md hover:bg-purple-400 dark:hover:bg-gray-700"
 							>
 								{t('hero.contac')}
 							</button>
@@ -122,12 +121,9 @@ const Hero = () => {
 						/>
 					</div>
 					<div className="absolute inset-0 hidden md:block -z-10">
-						<ShinyEffect left={0} top={0} size={1400} />
+						<ShinyEffect left={0} top={0} size={1300} />
 					</div>
 				</div>
-			</div>
-			<div className="ml-4">
-				<ModeToggle />
 			</div>
 		</section>
 	);
