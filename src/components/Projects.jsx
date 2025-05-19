@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import Hotel from '../assets/hotel.png';
-import RickandMorty from '../assets/rick and morty.png';
+import CoffeWeb from '../assets/coffeapp.png';
 import Usuarios from '../assets/usuarios.png';
 import Clima from '../assets/clima.png';
 import Cards from './Cards';
@@ -18,11 +18,11 @@ const Projects = () => {
 			github: 'https://github.com/naylethmontes/deliverable-final-react',
 		},
 		{
-			title: t('projects.rickAndMorty.title'),
-			desc: t('projects.rickAndMorty.desc'),
-			image: RickandMorty,
-			live: 'https://deliverable03-rick-and-morty.netlify.app/',
-			github: 'https://github.com/naylethmontes/deliverable03-rick-and-morty',
+			title: t('projects.coffeWeb.title'),
+			desc: t('projects.coffeWeb.desc'),
+			image: CoffeWeb,
+			live: 'https://coffe-delcampo-dev.netlify.app/',
+			github: 'https://github.com/naylethmontes/coffe-app',
 		},
 		{
 			title: t('projects.crud.title'),

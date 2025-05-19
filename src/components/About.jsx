@@ -6,6 +6,8 @@ import Javascript from '../assets/JS.png';
 import ReactLogo from '../assets/React.png';
 import Tailwind from '../assets/Tailwind Css.png';
 import NodeJs from '../assets/NodeLogo.png';
+import PostgreSql from '../assets/postgresql.png';
+import Typescript from '../assets/typescript.png';
 import Card from './Card';
 import '../config/i18n';
 
@@ -68,6 +70,14 @@ const About = () => {
 								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
 									<img src={NodeJs} alt="" className="w-10" />
 									<span className="font-semibold">Node Js</span>
+								</div>
+								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
+									<img src={PostgreSql} alt="" className="w-10" />
+									<span className="font-semibold">PostgreSQL</span>
+								</div>
+								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
+									<img src={Typescript} alt="" className="w-10" />
+									<span className="font-semibold">TypeScript</span>
 								</div>
 							</div>
 						</div>

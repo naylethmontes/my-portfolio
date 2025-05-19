@@ -133,9 +133,9 @@
       "title": "Aplicacion de Hoteles",
       "desc": "Esta App diseñada para una buena experiencia de usuario. Se protegen rutas, se creo un registro de reservas, reseñas, filtros por ciudad, elaborada con React, y librerias como Tailwind, React Hook Form entre otras"
       },
-    "rickAndMorty": {
-      "title": "Rick and Morty",
-      "desc": "Aplicación desarrollada con React para consumir la API de Rick and Morty, mostrando información detallada sobre personajes, episodios y ubicaciones. Implementa peticiones HTTP asíncronas para obtener datos en tiempo real, garantizando una experiencia fluida y dinámica."
+    "coffeWeb": {
+      "title": "Cafe Web",
+      "desc": "Cafe del campo es una web de cafetería desarrollada con React y TailwindCSS v4. Ofrece un diseño moderno y resposivo, sistema de login y navegación por distintos menús como bebidas, postres y más."
       },
     "crud": {
       "title": "Crud de Usuarios",
