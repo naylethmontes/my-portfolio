@@ -18,13 +18,6 @@
     "animation": ["Desarrollo Web", "Fullstack", "Diseño Web"]
   },
 
-    
-  
-    
-  
-
-
-
   "aboutMe": {
     "title": "Acerca de mi",
     "subTitle": "Hola, Soy Nayleth",
@@ -32,7 +25,6 @@
     "description": "Me estusiasma el diseño innovador, las tecnologias, mi meta primordial es crear y desarrollar soluciones web que sean altamente eficientes. Me destaco por mi enfoque tranquilo y paciente, lo que me permite abordar proyectos con atención al detalle y trabajar de manera efectiva en equipo.  ",
     "skill": "Habilidades y Experiencia"
   },
-
 
   "card": {
       "boost": {
@@ -51,7 +43,6 @@
       }
     
     },
-
 
   "cards": {
     "title": "Vista Previa",
@@ -135,7 +126,7 @@
       },
     "coffeWeb": {
       "title": "Cafe Web",
-      "desc": "Cafe del campo es una web de cafetería desarrollada con React y TailwindCSS v4. Ofrece un diseño moderno y resposivo, sistema de login y navegación por distintos menús como bebidas, postres y más."
+      "desc": "Cafe Montes es una web de cafetería desarrollada con React y TailwindCSS v4. Ofrece un diseño moderno y resposivo, sistema de login y navegación por distintos menús como bebidas, postres y más."
       },
     "crud": {
       "title": "Crud de Usuarios",
@@ -144,6 +135,14 @@
     "weather": {
       "title": "Clima",
       "desc": "Desarrollada con React que muestra información actualizada sobre las condiciones meteorológicas en tiempo real. Permite consultar el clima por ubicación."
+      },
+    "ecommerce": {
+      "title": "Ecommerce de Productos",
+      "desc": "Ecommerce full-stack moderna con Next.js, Tailwindcss v4, Shadcn, y Strapi, base de datos Posgresql. Diseñada para rendimiento, flexibilidad y gestión dinámica de contenido y una interfaz moderna."
+      },
+      "ecommerceBackend": {
+      "title": "Backend Ecommerce de Productos",
+      "desc": "Encargado de la gestión completa de productos, categorías y relaciones entre entidades. Incluye configuración de endpoints seguros, control de autenticación y administración dinámica de contenido."
       }
     },
   

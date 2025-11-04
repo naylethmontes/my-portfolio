@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
@@ -26,7 +25,7 @@ const Hero = () => {
 		window.open(emailLink, '_blank');
 	};
 	return (
-		<section className="px-7 top-0 mt-18 max-w-[1650px] mx-auto relative  dark:bg-gray-500 text-black dark:text-black">
+		<section className="px-7 top-0 mt-18 max-w-[1910px] mx-auto relative  dark:bg-gray-500 text-black dark:text-black">
 			<div className="py-7">
 				<div className="flex flex-col md:flex-row items-center lg:h-[90vh] justify-between ">
 					<div className="md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10 text-center md:text-left ">

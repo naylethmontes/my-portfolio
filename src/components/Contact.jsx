@@ -67,7 +67,7 @@ const Contact = () => {
 						<p className="mb-4 text-black/85">{t('contactMe.subTitle')}</p>
 						<div className="flex space-x-5">
 							<a
-								href="https://wa.me/573126538991"
+								href="https://wa.me/573156538991"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-foreground/60 hover:text-foreground/80"

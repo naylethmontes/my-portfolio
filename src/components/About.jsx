@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Html from '../assets/Html.png';
 import Css from '../assets/CSS.png';
@@ -8,7 +7,10 @@ import Tailwind from '../assets/Tailwind Css.png';
 import NodeJs from '../assets/NodeLogo.png';
 import PostgreSql from '../assets/postgresql.png';
 import Typescript from '../assets/typescript.png';
-import Card from './Card';
+import Nextjs from '../assets/nextjsicon.png';
+import Strapi from '../assets/strapiicon.png';
+import Shadcn from '../assets/shadcn.png';
+import Card from './CardSkill';
 import '../config/i18n';
 
 const About = () => {
@@ -24,7 +26,7 @@ const About = () => {
 						<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl">
 							{t('aboutMe.subTitle')}
 						</p>
-						<p className="mt-4 max-w-xs text-base text-center text-gray-600 mx-auto sm:max-w-md sm:text-lg md:max-w-2xl md:text-xl">
+						<p className="mt-4 max-w-xs text-base text-center text-gray-600 mx-auto sm:max-w-md sm:text-lg md:max-w-2xl md:text-xl-900 dark:text-slate-300">
 							{t('aboutMe.description')}
 						</p>
 					</div>
@@ -43,7 +45,7 @@ const About = () => {
 
 					<div className=" bg-purple-100 container mx-auto justify-center p-8 dark:bg-gray-500 text-gray-800 dark:text-gray-200">
 						<div className=" bg-purple-300 rounded-lg md:p-7 py-7 flex flex-col gap-10 items-center shadow-lg shadow-white-400 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
-							<h3 className="text-[24px] mb-3 text-2xl text-center sm:text-lefttext-[24px] font-bold uppercase mb-7text-2xl text-gray-900">
+							<h3 className="text-[24px] mb-3 text-2xl text-center sm:text-lefttext-[24px] font-bold uppercase mb-7text-2xl text-gray-900 dark:text-slate-300">
 								{t('aboutMe.skill')}
 							</h3>
 							<div className=" flex items-center justify-center flex-wrap gap-3 ">
@@ -54,6 +56,18 @@ const About = () => {
 								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
 									<img src={Css} alt="" className="w-8" />
 									<span className="font-semibold">CSS</span>
+								</div>
+								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
+									<img src={Nextjs} alt="" className="w-8" />
+									<span className="font-semibold">Nextjs</span>
+								</div>
+								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
+									<img src={Strapi} alt="" className="w-8" />
+									<span className="font-semibold">Strapi</span>
+								</div>
+								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
+									<img src={Shadcn} alt="" className="w-8" />
+									<span className="font-semibold">Shadcn</span>
 								</div>
 								<div className="border border-white flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-white bg-red-100 dark:bg-gray-500 text-gray-800 dark:text-gray-200 dark:shadow-gray-400">
 									<img src={Javascript} alt="" className="w-10" />

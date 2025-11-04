@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Logo from '../assets/logonay.png';
 import { Menu, X } from 'lucide-react';

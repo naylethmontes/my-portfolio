@@ -1,14 +1,11 @@
-
-
 {
   "nav": {
-    "home": "Start",
+    "home": "Home",
     "about": "About Me",
     "project": "Projects",
     "tests": "Testimonials",
     "contc": "Contact"
   },
-
 
   "hero": {
     "title": "I am ",
@@ -20,10 +17,6 @@
     "animation": ["Web Dev", "Fullstack", "Web Design"]
   },
 
-     
-    
-  
-
   "aboutMe": {
     "title": "About Me",
     "subTitle": "Hello, I am Nayleth",
@@ -31,7 +24,6 @@
     "par": "I can bring strategic solutions...",
     "skill": "Skills and Experience"
   },
-
 
   "card": {
       "boost": {
@@ -47,8 +39,7 @@
       "quality": {
         "title": "Quality",
         "desc": "My commitment is to deliver comprehensive solutions that integrate innovation, functionality, and quality design. I work collaboratively with companies to understand their goals and challenges."
-      }
-    
+      }   
     },
 
   "cards": {
@@ -81,12 +72,9 @@
     },
   
     "texts5": {
-      "text": "We did great work together."
-      
+      "text": "We did great work together."  
     }
-  
   },
-
 
   "contactMe": {
     "title": "Get in Touch",
@@ -96,8 +84,7 @@
     "email": "Email",
     "message": "Message",
     "send": "Send",
-    "form": "¡Successfully sent!"
-
+  "form": "¡Successfully sent!"
   },
 
   "placeholder": {
@@ -105,7 +92,6 @@
     "email": "hello@hotmail.com",
     "message": "write your message"
   },
-
 
   "navbar": {
     "home": "Home",
@@ -131,7 +117,7 @@
       },
       "coffeWeb": {
         "title": "Coffe Web",
-        "desc": "Café del Campo is a coffee shop website built with React and TailwindCSS v4. It features a modern and responsive design, a login system, and navigation through different menus such as drinks, desserts, and more."
+        "desc": "Café Montes is a coffee shop website built with React and TailwindCSS v4. It features a modern and responsive design, a login system, and navigation through different menus such as drinks, desserts, and more."
       },
       "crud": {
         "title": "User Crud",
@@ -140,6 +126,14 @@
       "weather": {
         "title": "Weather",
         "desc": "Developed with React, this app shows real-time updated weather conditions. It allows users to check the weather by location."
+      },
+      "ecommerce": {
+      "title": "Product Ecommerce",
+      "desc": "Modern full-stack ecommerce built with Next.js, TailwindCSS v4, Shadcn, and Strapi, using a PostgreSQL database. Designed for performance, flexibility, and dynamic content management with a modern interface."
+      },
+      "ecommerceBackend": {
+      "title": "Backend Product Ecommerce",
+      "desc": "Responsible for the complete management of products, categories, and relationships between entities. Includes secure endpoint configuration, authentication control, and dynamic content management."
       }
     },
 
