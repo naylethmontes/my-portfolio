@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import Logo from '../assets/logonay.png';
+import Logo from '../assets/logonew.png';
 import { Menu, X } from 'lucide-react';
 import '../config/i18n';
 import ModeToggle from './ModeToggle';
@@ -14,7 +14,7 @@ const Navbar = () => {
 			<div className=" max-w-7xl mx-auto flex h-14 items-center ">
 				<div className="md:mr-4 flex justify-between w-full ">
 					<a href="#" className="mr-6 flex items-center space-x-2">
-						<img src={Logo} alt="" className="w-20 px-3" />
+						<img src={Logo} alt="" className="w-40 px-2" />
 					</a>
 					<div className="flex justify-center items-center h-screen">
 						<nav className="md:flex hidden items-center space-x-6 text-lg font-medium ">
